@@ -54,7 +54,7 @@ int	ft_first_expr(char **str)
 	char op;
 
 	nb = ft_parenthes(str);
-	while ((*str)[0] != '\0' && (*str)[0] != '(')
+	while ((*str)[0] != '\0' && (*str)[0] != ')')
 	{
 		op = (*str)[0];
 		*str = *str + 1;
