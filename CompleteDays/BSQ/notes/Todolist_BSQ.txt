@@ -1,0 +1,28 @@
+											PROJET BSQ
+
+	LISTE DES FONCTIONS OU OBJETS NECESSAIRES:
+
+-> Fonction pour creer le plateau. (DONE, TESTED AND NORMED)
+
+-> Fonction pour afficher la forme ou on a stocke notre tableau. (DONE, TESTED AND NORMED ALSO)
+		"char is the smaller to stock" (1 octet).
+
+-> Fonction testant la validite de la carte. (WORK IN PROGRESS)
+
+-> Fonction pour ouvrir les fichiers passes en arguments et enchainer sur les tests de validite / creation: (FINISHED, TEST AND NORM OK)
+	.1 a 'n' fichiers. OK
+	.solutions espacees par une newline. OK
+	.aucun argument = lecture sur entree standard. OK
+
+-> Fichier auteur = "ple-tors;mbenhass".  (JOB DONE)
+
+-> Fonction de fin qui free tous les malloc. 
+
+-> Fichier Makefile pour tout compiler en un executable "BSQ". (DONE ALSO, NEED TO CHECK IF ITS POSSIBLE TO GROUP ALL THE *.o FILES IN A FOLDER ./objs/)
+
+-> Fonctions retournant le plateau (ou fichier?) avec le plus grand carre affiche si trouve. (DONE AND TESTED , NORMED ALSO, WORKS FINE)
+
+-> Maintenant au'avons nous oublié ?
+		-	
+		-
+		-

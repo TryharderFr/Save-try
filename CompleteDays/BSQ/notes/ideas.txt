@@ -1,0 +1,36 @@
+											LISTE D'IDEES
+
+		Se renseigner sur des algos utilisant une recherche de blocs.
+
+-> Programme de demineur:
+	.Lorsqu'on clique sur une case, il affiche sur celle-ci le nombre de mines dans les carres adjacents.
+	(Utilisable avec du backtracking?)
+
+-> Transformer le tableau passe en arg en un tableau contenant dans chacunes de ses cases la valeur des obstacles
+	a proximite?
+
+-> Approche similaire au bruteforce mais simple et clair:
+	. Trouver un carre possible ((2 * 2) ou plus)
+		. Conserver sa taille et sa position dans le tableau
+		. Sinon, passer a la case d'apres.
+
+-> Chercher une option de gcc a mettre dans le Makefile afin de compiler les fichiers objets dans un seul et meme repertoire.
+
+-> Tester les fonctions de creation d'affichage et de creation de tableaux avec celle de lecture des fichiers.
+
+Test00 (obstacle seul) : KO ft find
+Test01 (case vide 1x1) : OK
+OKTest02 (0O+X, error) : 
+OKTest03 (Fichier vide, error) : OK
+OKTest04 (3O+X mais bsq 2x2, error) : OK
+OKTest05 (Lignes taille differente, error) : OK
+OKTest06 (Damier) : OK
+OKTest07 (Sans la premiere ligne, error) : OK
+Test08 (1 case deja pleine) : ??
+OKTest09 (Cases remplacées par des nombres) : OK
+OKTest10 (Vides en espaces) : OK
+OKTest11 (Obstacles en espaces) : OK
+OKTest12 (100x100) : OK
+//?Test15 (pas de saut de ligne a la fin, map error) : KO
+?Test16 (2 sauts de ligne a la fin, map error) : ??
+//Test42 (1 caractere en trop 1ere ligne) : KO
